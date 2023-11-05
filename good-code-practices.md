@@ -64,10 +64,10 @@ public void onPlayerJoin(PlayerJoinEvent event) {
 ```
 
 ### Avoid repeating collections calls:
-Map#containsKey and Map#get can be merged in a single call to Map#get and checking for null. <br>
-Map#keySet and Map#get can be merged in a single call to Map#entrySet and iterating over the entries.<br>
-Map#containsKey and Map#remove can be merged in a single call to Map#remove.<br>
-Map#containsKey and Map#put can be merged in a single call to Map#putIfAbsent.<br>
+`Map#containsKey` and `Map#get` can be merged in a single call to `Map#get` and checking for null.<br>
+`Map#keySet` and `Map#get` can be merged in a single call to `Map#entrySet` and iterating over the entries.<br>
+`Map#containsKey` and `Map#remove` can be merged in a single call to `Map#remove`.<br>
+`Map#containsKey` and `Map#put` can be merged in a single call to `Map#putIfAbsent`.<br>
 
 Non-compliant code:
 ```java
