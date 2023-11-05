@@ -2,6 +2,7 @@ The basics:
 - [Asking for help](https://github.com/IllusionTheDev/search-index-backup/blob/main/asking-for-help.md)
 - [Static abuse](https://github.com/IllusionTheDev/search-index-backup/blob/main/static-abuse.md)
 - [Lambdas](https://github.com/IllusionTheDev/search-index-backup/blob/main/lambdas.md)
+- [Good Code Practices](https://github.com/IllusionTheDev/search-index-backup/blob/main/good-code-practices.md)
 
 Niche solutions:
 - [Event Lambdas](https://github.com/IllusionTheDev/search-index-backup/blob/main/event-lambdas.md)
