@@ -175,7 +175,7 @@ map.put(2, "World");
 String hello = map.get(1);
 ```
 
-### Override uneceessary methods
+### Override unnecessary methods
 When extending a class, make sure to override all methods that are wasteful, such as fire checks for custom ArmorStand entities.
 
 ### PSA: Always seek to improve your code
