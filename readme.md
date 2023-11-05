@@ -11,4 +11,4 @@ Advanced:
 - [Completable Futures](https://github.com/IllusionTheDev/search-index-backup/blob/main/completable-futures.md)
 
 PSA:
-- [ProtocolLib Entity Metadata Changes (1.19+)](https://github.com/IllusionTheDev/search-index-backup/blob/main/protocol-lib-entity-metadata.md)
+- [ProtocolLib Entity Metadata Changes (1.19+)](https://github.com/IllusionTheDev/search-index-backup/blob/main/protocollib-entity-metadata.md)
