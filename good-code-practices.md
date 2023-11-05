@@ -134,7 +134,7 @@ public class MyManager {
    }
    
    public Map<UUID, PlayerData> getPlayerData() {
-        return Collections.unmodifiableMap(playerData);
+        return Map.copyOf(playerData);
    }
 }
 ```
@@ -168,7 +168,7 @@ String hello = map.get(1);
 
 Compliant code:
 ```java
-Int2ObjectMap<String> map = new Int2ObjectHashMap<>();
+Int2ObjectMap<String> map = new Int2ObjectOpenHashMap<>();
 map.put(1, "Hello");
 map.put(2, "World");
 
